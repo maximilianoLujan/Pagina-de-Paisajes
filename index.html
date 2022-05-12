@@ -13,24 +13,21 @@
 <body>
     <header class="contenedor">
         <div class="item--c1">
-            <div class="icons">ABOUT</div>
-            <div class="icons">EXPLORE</div>
-            <div class="icons gps"></div>
-            <div class="icons">JOURNAL</div>
-            <div class="icon--search">
-                <a href=""></a>
-                SEARCH
-            </div>
+            <a href="" class="icons">ABOUT</a>
+            <a href="#explore" class="icons">EXPLORE</a>
+            <a href="" class="icons gps"></a>
+            <a href="#Journal" class="icons">JOURNAL</a>
+            <a href="" class="icons">SEARCH</a>
         </div>
         <div class="item--c2">
             <h1>The Great Outdoors</h1>
             <p>Wander often.Wonder always.</p>
         </div>
     </header>
-    <main class="explore">
+    <main id="explore" class="explore">
         <h2>Explore The World</h2>
         <p>We seek to provide the most authentic content form athletes, adventurers, explorers and travellers arround the world. Our long-term mission is to educate,inspire and enable all peoples to experience & protect wilderness</p>
-        <div class="explore-images">
+        <div class="explore--images">
             <div class="item--explore">
                 <div class="img img--1"></div>
                 <div class="img img--2"></div>
@@ -39,8 +36,27 @@
                 <div class="img img--5"></div>
                 <div class="img img--6"></div>
             </div>
-            <a href="#">See More</a>
+            <a href="#">See More ></a>
         </div>
-    </main>   
+    </main>
+    <div id="Journal" class="journal">
+        <h2>The Journal</h2>
+        <p>Our favorite stories about public lands and opportunities for you to get involved in protecting your outdoor experiences</p>
+        <div class="journal-container">
+            <div class="journal--item">
+                <img src="/Images/7.jpg" alt="">
+                <p class="text">May 30, 2017</p>
+                <h3 class="text">An Unforgettable</h3>
+                <p class="text text--p"> If you only have one day to visit Yosernite National Park and you want to make the most out of it</p>
+            </div>
+            <div class="journal--item">
+                <img src="/Images/8.jpg" alt="">
+                <p class="text">May 28, 2017</p>
+                <h3 class="text">Symphonies in steel</h3>
+                <p class="text text--p">Crossing the Golden Gate Bridge from San Francisco, you arrive in Marin even before landing on solid ground</p>
+            </div>
+        </div>
+        <a class="allpost" href="">All Post ></a>
+    </div>
 </body>
 </html>

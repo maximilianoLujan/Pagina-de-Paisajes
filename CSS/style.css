@@ -31,6 +31,15 @@ body {
   height: 20px;
 }
 
+.icons {
+  text-decoration: none;
+  color: #fcfefc;
+}
+
+.icons:hover {
+  font-weight: 1000;
+}
+
 .gps {
   width: 36px;
   height: 36px;
@@ -90,7 +99,6 @@ body {
 }
 
 .explore--images {
-  background-color: aqua;
   width: 100%;
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -125,5 +133,107 @@ body {
   margin: 5px;
   width: 100%;
   height: 150px;
+  background-repeat: no-repeat;
+}
+
+.img:nth-of-type(1) {
+  background-image: url(/Images/1.jpg);
+}
+
+.img:nth-of-type(2) {
+  background-image: url(/Images/2.jpg);
+}
+
+.img:nth-of-type(3) {
+  background-image: url(/Images/3.jpg);
+}
+
+.img:nth-of-type(4) {
+  background-image: url(/Images/4.jpg);
+}
+
+.img:nth-of-type(5) {
+  background-image: url(/Images/5.jpg);
+}
+
+.img:nth-of-type(6) {
+  background-image: url(/Images/6.jpg);
+}
+
+.explore--images a {
+  text-decoration: none;
+  color: #4a5882;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.journal {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+}
+
+.journal h2 {
+  margin: auto;
+  color: #fcfefc;
+}
+
+.journal p {
+  color: #fcfefc;
+  width: 80%;
+  font-size: smaller;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.journal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.journal--item {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 50%;
+  margin: 6px;
+  padding: 5px;
+  border: 1px double grey;
+}
+
+.journal--item img {
+  width: 100%;
+  height: 150px;
+}
+
+.text {
+  color: #fcfefc;
+  text-align: center;
+  margin: 6px;
+}
+
+.text--p {
+  font-size: small;
+}
+
+.allpost {
+  margin: auto;
+  text-decoration: none;
+  color: #4a5882;
 }
 /*# sourceMappingURL=style.css.map */
