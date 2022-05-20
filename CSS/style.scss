@@ -1,4 +1,4 @@
-@import "variables.scss";
+@import "_variables.scss";
 body{
     font-family: 'Koulen', cursive;
     font-family: 'Quicksand', sans-serif;
@@ -10,7 +10,7 @@ body{
 .contenedor{
     width: 100%;
     height: 360px;
-    background-image: url(/Images/iceland-g36a0a5408_640.jpg);
+    background-image: url(../imagenes/iceland-xx.jpg);
     background-repeat:no-repeat;
 }
 .item--c1{
@@ -34,7 +34,7 @@ body{
 .gps{
     width: 36px;
     height: 36px;
-    background-image: url(/Icons/gps.png);
+    background-image: url(../Icons/gps.png);
     background-repeat: no-repeat;
 }
 .item--c2{
@@ -97,22 +97,22 @@ body{
     background-repeat:no-repeat;
 }
 .img:nth-of-type(1){
-    background-image: url(/Images/1.jpg);
+    background-image: url(../imagenes/1.jpg);
 }
 .img:nth-of-type(2){
-    background-image: url(/Images/2.jpg);
+    background-image: url(../imagenes/2.jpg);
 }
 .img:nth-of-type(3){
-    background-image: url(/Images/3.jpg);
+    background-image: url(../imagenes/3.jpg);
 }
 .img:nth-of-type(4){
-    background-image: url(/Images/4.jpg);
+    background-image: url(../imagenes/4.jpg);
 }
 .img:nth-of-type(5){
-    background-image: url(/Images/5.jpg);
+    background-image: url(../imagenes/5.jpg);
 }
 .img:nth-of-type(6){
-    background-image: url(/Images/6.jpg);
+    background-image: url(../imagenes/6.jpg);
 }
 .explore--images a{
     text-decoration: none;
@@ -158,13 +158,13 @@ body{
 .image--journal{
     height: 150px;
     width: 100%;
-    background-image: url(/Images/7.jpg);
+    background-image: url(../imagenes/7.jpg);
     background-repeat: no-repeat;
 }
 .image2--journal{
     height: 150px;
     width: 100%;
-    background-image: url(/Images/8.jpg);
+    background-image: url(../imagenes/8.jpg);
     background-repeat: no-repeat;
 }
 
@@ -187,7 +187,7 @@ body{
     height: 400px;
     display: flex;
     flex-direction: column;
-    background-image: url(/Images/Montaña.jpg);
+    background-image: url(../imagenes/Montaña.jpg);
     background-repeat: no-repeat;
 }
 .allpost{
@@ -212,11 +212,11 @@ body{
 }
 @media screen AND (min-width:520px) {
     .contenedor{
-        background-image: url(/Images/iceland-xx.jpg);
+        background-image: url(../imagenes/iceland-xx.jpg);
         background-position: bottom;
     }
     .footer{
-        background-image: url(/Images/mountains-xx.jpg);
+        background-image: url(../imagenes/mountains-xx.jpg);
         background-position: bottom;
     }
     .journal p{
@@ -228,42 +228,42 @@ body{
         text-align: center;
     }
     .img:nth-of-type(1){
-        background-image: url(/Images/1-1.jpg);
+        background-image: url(../imagenes/1-1.jpg);
         background-position: center;
     }
     .img:nth-of-type(2){
-        background-image: url(/Images/2-2.jpg);
+        background-image: url(../imagenes/2-2.jpg);
         background-position: center;
     }
     .img:nth-of-type(3){
-        background-image: url(/Images/3-3.jpg);
+        background-image: url(../imagenes/3-3.jpg);
         background-position: center;
     }
     .img:nth-of-type(4){
-        background-image: url(/Images/4-4.jpg);
+        background-image: url(../imagenes/4-4.jpg);
         background-position: center;
     }
     .img:nth-of-type(5){
-        background-image: url(/Images/5-5.jpg);
+        background-image: url(../imagenes/5-5.jpg);
         background-position: center;
     }
     .img:nth-of-type(6){
-        background-image: url(/Images/6-6.jpg);
+        background-image: url(../imagenes/6-6.jpg);
         background-position: center;
     }
     .journal--item img{
-        background-image: url(/Images/7-7.jpg);
+        background-image: url(../Imagenes/7-7.jpg);
     }
     .image--journal{
         height: 400px;
         width: 100%;
-        background-image: url(/Images/7-7.jpg);
+        background-image: url(../imagenes/7-7.jpg);
         background-repeat: no-repeat;
     }
     .image2--journal{
         height: 400px;
         width: 100%;
-        background-image: url(/Images/8-8.jpg);
+        background-image: url(../imagenes/8-8.jpg);
         background-repeat: no-repeat;
     }
     .privacidad{
